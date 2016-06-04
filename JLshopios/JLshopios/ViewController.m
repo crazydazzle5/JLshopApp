@@ -17,6 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    MYLog(@"%@",@"哈哈哈");
+
 }
 
 - (void)didReceiveMemoryWarning {

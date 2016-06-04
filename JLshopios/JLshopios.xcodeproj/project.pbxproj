@@ -13,6 +13,12 @@
 		3043B0A61D02C55B00E97B82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3043B0A41D02C55B00E97B82 /* Main.storyboard */; };
 		3043B0A81D02C55B00E97B82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3043B0A71D02C55B00E97B82 /* Assets.xcassets */; };
 		3043B0AB1D02C55B00E97B82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3043B0A91D02C55B00E97B82 /* LaunchScreen.storyboard */; };
+		E7A189B71D02CEAA00E6F441 /* ShopBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A189B61D02CEAA00E6F441 /* ShopBaseViewController.m */; };
+		E7A189C61D02D17700E6F441 /* Me.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7A189C51D02D17700E6F441 /* Me.storyboard */; };
+		E7A189C81D02D18D00E6F441 /* Shops.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7A189C71D02D18D00E6F441 /* Shops.storyboard */; };
+		E7A189CA1D02D19B00E6F441 /* Category.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7A189C91D02D19B00E6F441 /* Category.storyboard */; };
+		E7A189CC1D02D1B800E6F441 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7A189CB1D02D1B800E6F441 /* Home.storyboard */; };
+		E7A189CF1D02D3C000E6F441 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7A189CE1D02D3C000E6F441 /* Login.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,14 @@
 		3043B0A71D02C55B00E97B82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3043B0AA1D02C55B00E97B82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3043B0AC1D02C55B00E97B82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7A189B41D02CDF500E6F441 /* Shop_PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Shop_PrefixHeader.pch; sourceTree = "<group>"; };
+		E7A189B51D02CEAA00E6F441 /* ShopBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopBaseViewController.h; sourceTree = "<group>"; };
+		E7A189B61D02CEAA00E6F441 /* ShopBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopBaseViewController.m; sourceTree = "<group>"; };
+		E7A189C51D02D17700E6F441 /* Me.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Me.storyboard; path = ../Me.storyboard; sourceTree = "<group>"; };
+		E7A189C71D02D18D00E6F441 /* Shops.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Shops.storyboard; sourceTree = "<group>"; };
+		E7A189C91D02D19B00E6F441 /* Category.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Category.storyboard; sourceTree = "<group>"; };
+		E7A189CB1D02D1B800E6F441 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		E7A189CE1D02D3C000E6F441 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +72,9 @@
 		3043B09A1D02C55B00E97B82 /* JLshopios */ = {
 			isa = PBXGroup;
 			children = (
-				3043B09E1D02C55B00E97B82 /* AppDelegate.h */,
-				3043B09F1D02C55B00E97B82 /* AppDelegate.m */,
+				E7A189B81D02CFEA00E6F441 /* Classes */,
+				E78544FF1D02CA18007839EE /* BaseController */,
+				E78544FE1D02C97A007839EE /* Delegate */,
 				3043B0A11D02C55B00E97B82 /* ViewController.h */,
 				3043B0A21D02C55B00E97B82 /* ViewController.m */,
 				3043B0A41D02C55B00E97B82 /* Main.storyboard */,
@@ -75,8 +90,79 @@
 			isa = PBXGroup;
 			children = (
 				3043B09C1D02C55B00E97B82 /* main.m */,
+				E7A189B41D02CDF500E6F441 /* Shop_PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E78544FE1D02C97A007839EE /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				3043B09E1D02C55B00E97B82 /* AppDelegate.h */,
+				3043B09F1D02C55B00E97B82 /* AppDelegate.m */,
+			);
+			name = Delegate;
+			sourceTree = "<group>";
+		};
+		E78544FF1D02CA18007839EE /* BaseController */ = {
+			isa = PBXGroup;
+			children = (
+				E7A189B51D02CEAA00E6F441 /* ShopBaseViewController.h */,
+				E7A189B61D02CEAA00E6F441 /* ShopBaseViewController.m */,
+			);
+			name = BaseController;
+			sourceTree = "<group>";
+		};
+		E7A189B81D02CFEA00E6F441 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E7A189CD1D02D3B100E6F441 /* Login */,
+				E7A189BC1D02D03000E6F441 /* Me */,
+				E7A189BB1D02D01700E6F441 /* Shops */,
+				E7A189BA1D02D00100E6F441 /* Category */,
+				E7A189B91D02CFF700E6F441 /* Home */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		E7A189B91D02CFF700E6F441 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E7A189CB1D02D1B800E6F441 /* Home.storyboard */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		E7A189BA1D02D00100E6F441 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				E7A189C91D02D19B00E6F441 /* Category.storyboard */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		E7A189BB1D02D01700E6F441 /* Shops */ = {
+			isa = PBXGroup;
+			children = (
+				E7A189C71D02D18D00E6F441 /* Shops.storyboard */,
+			);
+			name = Shops;
+			sourceTree = "<group>";
+		};
+		E7A189BC1D02D03000E6F441 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				E7A189C51D02D17700E6F441 /* Me.storyboard */,
+			);
+			name = Me;
+			sourceTree = "<group>";
+		};
+		E7A189CD1D02D3B100E6F441 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				E7A189CE1D02D3C000E6F441 /* Login.storyboard */,
+			);
+			name = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +223,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7A189CF1D02D3C000E6F441 /* Login.storyboard in Resources */,
+				E7A189CC1D02D1B800E6F441 /* Home.storyboard in Resources */,
+				E7A189CA1D02D19B00E6F441 /* Category.storyboard in Resources */,
 				3043B0AB1D02C55B00E97B82 /* LaunchScreen.storyboard in Resources */,
 				3043B0A81D02C55B00E97B82 /* Assets.xcassets in Resources */,
+				E7A189C81D02D18D00E6F441 /* Shops.storyboard in Resources */,
+				E7A189C61D02D17700E6F441 /* Me.storyboard in Resources */,
 				3043B0A61D02C55B00E97B82 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,6 +241,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7A189B71D02CEAA00E6F441 /* ShopBaseViewController.m in Sources */,
 				3043B0A31D02C55B00E97B82 /* ViewController.m in Sources */,
 				3043B0A01D02C55B00E97B82 /* AppDelegate.m in Sources */,
 				3043B09D1D02C55B00E97B82 /* main.m in Sources */,
@@ -266,10 +358,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/zhouyuxi/JLshopApp/JLshopios/JLshopios/Shop_PrefixHeader.pch;
 				INFOPLIST_FILE = JLshopios/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jl.JLshopios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -277,10 +373,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/zhouyuxi/JLshopApp/JLshopios/JLshopios/Shop_PrefixHeader.pch;
 				INFOPLIST_FILE = JLshopios/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jl.JLshopios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -303,6 +403,7 @@
 				3043B0B11D02C55B00E97B82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
