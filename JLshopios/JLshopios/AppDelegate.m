@@ -7,6 +7,11 @@
 //
 
 #import "AppDelegate.h"
+#import "AppDelegate+FYTXDataBase.h"
+#import "AppDelegate+FYTXEntrance.h"
+#import "AppDelegate+FYTXUI.h"
+
+
 
 @interface AppDelegate ()
 
@@ -17,6 +22,82 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+//    {
+//        //统计
+//        
+//        [self openAppWithAPNS:[launchOptions objectForKey:UIApplicationLaunchOptionsRemoteNotificationKey]];
+//    }
+//    
+//    
+//    //启动个推
+//    {
+//        [FYPushNotification startWithLaunchOptions:launchOptions];
+//    }
+//    
+//    //友盟启动
+//    {
+//        [FYTXAnalytics start];
+//    }
+//    
+//    
+//    {
+//        //启动网络
+//        _internetReachability = [Reachability reachabilityWithHostname:FYTXC_DefaultConfig_CheckNetAddress];
+//        [_internetReachability startNotifier];
+//    }
+//    
+//    //启动友盟
+//    {
+//        [FYTXSNSShare start];
+//    }
+//    
+//    
+//    //启动 bugly
+//    {
+//        [self openBugly];
+//    }
+//    
+//    
+//    
+//    //清理 WebView Cache
+//    {
+//        [[NSURLCache sharedURLCache] removeAllCachedResponses];
+//    }
+//    
+//    //设置UA
+//    {
+//        UIWebView *webView = [[UIWebView alloc] initWithFrame:CGRectZero];
+//        NSString *oldAgent = [webView stringByEvaluatingJavaScriptFromString:@"navigator.userAgent"];
+//        NSString *newAgent = [oldAgent stringByAppendingString:@" /FangYanTianXia/1.0.3"];
+//        NSDictionary *dictionary = [NSDictionary dictionaryWithObjectsAndKeys:newAgent, @"UserAgent", nil];
+//        [[NSUserDefaults standardUserDefaults] registerDefaults:dictionary];
+//    }
+//
+//    
+//    [self loadBaseService];
+//    //APP入口 从加载导航开始
+//    [self loadAppGuide];
+//    [self initAppUI];
+//    
+//    {
+//        //把没上传完的视频 加入
+//        FYTXDBUserInfoModel *userinfoDB=[FYTXDBUserInfoModel currentUserInfo];
+//        NSString *userid= userinfoDB.userId;
+//        [FYTXUVReUploadManager reUploadWithUserid:userid];
+//    }
+//    
+//    
+//    //启动IM
+//    [FYTXMessageSystem start];
+//
+//    
+//    
+//#pragma mark 统计启动
+//    [FYTXStatisticsInfoReport appStart];
+//    
+//    
+    [self loadAppGuide];
+    
     return YES;
 }
 
