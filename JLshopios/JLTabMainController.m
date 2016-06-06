@@ -16,6 +16,7 @@
 #import "JLCategoryViewController.h"
 #import "JLHomeViewController.h"
 #import "JLShopsViewController.h"
+#import "CategoryViewController.h"
 
 
 
@@ -45,7 +46,7 @@
     
 //    [vcHome setNm_wantsNavigationBarVisible:NO];
     
-    JLCategoryViewController *vcCate = [[JLCategoryViewController alloc]init];
+    CategoryViewController *vcCate = [[CategoryViewController alloc]init];
     JLBaseNavigationController *bnCate = [[JLBaseNavigationController alloc]initWithRootViewController:vcCate];
     
     JLShopsViewController *vcShop = [[JLShopsViewController alloc]init];
