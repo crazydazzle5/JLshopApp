@@ -7,19 +7,12 @@
 //
 
 #import "JLTabMainController.h"
-
-#import "JLBaseNavigationController.h"
-
 #import "JLHomeViewController.h"
 #import "JLLoginViewController.h"
 #import "JLMeViewController.h"
 #import "JLHomeViewController.h"
 #import "JLShopsViewController.h"
 #import "CategoryViewController.h"
-
-
-
-
 
 @interface JLTabMainController ()
 

@@ -22,7 +22,6 @@
 		8E2DE7631D047BC8003C077A /* JLShopsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2DE7621D047BC8003C077A /* JLShopsViewController.m */; };
 		8E2DE7661D047BE1003C077A /* JLMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2DE7651D047BE1003C077A /* JLMeViewController.m */; };
 		8E2DE7691D047BEF003C077A /* JLLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2DE7681D047BEF003C077A /* JLLoginViewController.m */; };
-		8E2DE76D1D047D63003C077A /* JLBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2DE76C1D047D63003C077A /* JLBaseNavigationController.m */; };
 		8E2DE7831D048A43003C077A /* _JZNavigationInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2DE7741D048A43003C077A /* _JZNavigationInteractiveTransition.m */; };
 		8E2DE7841D048A43003C077A /* _JZValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2DE7761D048A43003C077A /* _JZValue.m */; };
 		8E2DE7851D048A43003C077A /* NSNumber+JZExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2DE7781D048A43003C077A /* NSNumber+JZExtension.m */; };
@@ -118,8 +117,6 @@
 		8E2DE7651D047BE1003C077A /* JLMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLMeViewController.m; sourceTree = "<group>"; };
 		8E2DE7671D047BEF003C077A /* JLLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLLoginViewController.h; sourceTree = "<group>"; };
 		8E2DE7681D047BEF003C077A /* JLLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLLoginViewController.m; sourceTree = "<group>"; };
-		8E2DE76B1D047D63003C077A /* JLBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JLBaseNavigationController.h; path = ../JLBaseNavigationController.h; sourceTree = "<group>"; };
-		8E2DE76C1D047D63003C077A /* JLBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JLBaseNavigationController.m; path = ../JLBaseNavigationController.m; sourceTree = "<group>"; };
 		8E2DE7701D048A43003C077A /* JZNavigationExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZNavigationExtension.h; sourceTree = "<group>"; };
 		8E2DE7721D048A43003C077A /* _JZ-objc-internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "_JZ-objc-internal.h"; sourceTree = "<group>"; };
 		8E2DE7731D048A43003C077A /* _JZNavigationInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _JZNavigationInteractiveTransition.h; sourceTree = "<group>"; };
@@ -223,8 +220,8 @@
 		E77EFEFA1D05589F00E5113C /* Commodity.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Commodity.plist; sourceTree = "<group>"; };
 		E77EFEFC1D05593F00E5113C /* ShopNextController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopNextController.h; sourceTree = "<group>"; };
 		E77EFEFD1D05593F00E5113C /* ShopNextController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopNextController.m; sourceTree = "<group>"; };
-		E77EFEFF1D0560E900E5113C /* QSCNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSCNavigationController.h; sourceTree = "<group>"; };
-		E77EFF001D0560E900E5113C /* QSCNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSCNavigationController.m; sourceTree = "<group>"; };
+		E77EFEFF1D0560E900E5113C /* QSCNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QSCNavigationController.h; path = tools/QSCNavigationController.h; sourceTree = "<group>"; };
+		E77EFF001D0560E900E5113C /* QSCNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QSCNavigationController.m; path = tools/QSCNavigationController.m; sourceTree = "<group>"; };
 		E77EFF021D05611600E5113C /* UIImage+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
 		E77EFF031D05611600E5113C /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
 		E77EFF051D05613400E5113C /* NSString+File.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+File.h"; sourceTree = "<group>"; };
@@ -313,8 +310,8 @@
 		8E2DE76A1D047C6C003C077A /* TabMain */ = {
 			isa = PBXGroup;
 			children = (
-				8E2DE76B1D047D63003C077A /* JLBaseNavigationController.h */,
-				8E2DE76C1D047D63003C077A /* JLBaseNavigationController.m */,
+				E77EFEFF1D0560E900E5113C /* QSCNavigationController.h */,
+				E77EFF001D0560E900E5113C /* QSCNavigationController.m */,
 				8E2DE7581D047B2E003C077A /* JLTabMainController.h */,
 				8E2DE7591D047B2E003C077A /* JLTabMainController.m */,
 			);
@@ -326,8 +323,6 @@
 			children = (
 				E77EFF051D05613400E5113C /* NSString+File.h */,
 				E77EFF061D05613400E5113C /* NSString+File.m */,
-				E77EFEFF1D0560E900E5113C /* QSCNavigationController.h */,
-				E77EFF001D0560E900E5113C /* QSCNavigationController.m */,
 				E77EFEF41D05566700E5113C /* NSString+FontAwesome.h */,
 				E77EFEF51D05566700E5113C /* NSString+FontAwesome.m */,
 				E77EFEF11D05565400E5113C /* UIButton+PPiAwesome.h */,
@@ -745,7 +740,6 @@
 				8E2DE74D1D0477BF003C077A /* AppDelegate+FYTXEntrance.m in Sources */,
 				8E2DE7841D048A43003C077A /* _JZValue.m in Sources */,
 				8E2DE75D1D047B98003C077A /* JLHomeViewController.m in Sources */,
-				8E2DE76D1D047D63003C077A /* JLBaseNavigationController.m in Sources */,
 				E715ECF51D0526A3003A2D62 /* REFrostedContainerViewController.m in Sources */,
 				8E2DE7881D048A43003C077A /* UINavigationController+JZExtension.m in Sources */,
 				E715ECBE1D052671003A2D62 /* UIButton+Extension.m in Sources */,
