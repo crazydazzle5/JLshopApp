@@ -75,6 +75,11 @@
 		E77EFEF61D05566700E5113C /* NSString+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = E77EFEF51D05566700E5113C /* NSString+FontAwesome.m */; };
 		E77EFEFB1D05589F00E5113C /* Commodity.plist in Resources */ = {isa = PBXBuildFile; fileRef = E77EFEFA1D05589F00E5113C /* Commodity.plist */; };
 		E77EFEFE1D05593F00E5113C /* ShopNextController.m in Sources */ = {isa = PBXBuildFile; fileRef = E77EFEFD1D05593F00E5113C /* ShopNextController.m */; };
+		E77EFF011D0560E900E5113C /* QSCNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E77EFF001D0560E900E5113C /* QSCNavigationController.m */; };
+		E77EFF041D05611600E5113C /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = E77EFF031D05611600E5113C /* UIImage+Image.m */; };
+		E77EFF071D05613400E5113C /* NSString+File.m in Sources */ = {isa = PBXBuildFile; fileRef = E77EFF061D05613400E5113C /* NSString+File.m */; };
+		E77EFF0A1D05619600E5113C /* UIBarButtonItem+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = E77EFF091D05619600E5113C /* UIBarButtonItem+Addition.m */; };
+		E77EFF0D1D05621900E5113C /* UIButton+Bg.m in Sources */ = {isa = PBXBuildFile; fileRef = E77EFF0C1D05621900E5113C /* UIButton+Bg.m */; };
 		E7A189B71D02CEAA00E6F441 /* ShopBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A189B61D02CEAA00E6F441 /* ShopBaseViewController.m */; };
 		E7A189C61D02D17700E6F441 /* Me.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7A189C51D02D17700E6F441 /* Me.storyboard */; };
 		E7A189C81D02D18D00E6F441 /* Shops.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7A189C71D02D18D00E6F441 /* Shops.storyboard */; };
@@ -218,6 +223,16 @@
 		E77EFEFA1D05589F00E5113C /* Commodity.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Commodity.plist; sourceTree = "<group>"; };
 		E77EFEFC1D05593F00E5113C /* ShopNextController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopNextController.h; sourceTree = "<group>"; };
 		E77EFEFD1D05593F00E5113C /* ShopNextController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopNextController.m; sourceTree = "<group>"; };
+		E77EFEFF1D0560E900E5113C /* QSCNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSCNavigationController.h; sourceTree = "<group>"; };
+		E77EFF001D0560E900E5113C /* QSCNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSCNavigationController.m; sourceTree = "<group>"; };
+		E77EFF021D05611600E5113C /* UIImage+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
+		E77EFF031D05611600E5113C /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
+		E77EFF051D05613400E5113C /* NSString+File.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+File.h"; sourceTree = "<group>"; };
+		E77EFF061D05613400E5113C /* NSString+File.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+File.m"; sourceTree = "<group>"; };
+		E77EFF081D05619600E5113C /* UIBarButtonItem+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Addition.h"; sourceTree = "<group>"; };
+		E77EFF091D05619600E5113C /* UIBarButtonItem+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Addition.m"; sourceTree = "<group>"; };
+		E77EFF0B1D05621900E5113C /* UIButton+Bg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Bg.h"; sourceTree = "<group>"; };
+		E77EFF0C1D05621900E5113C /* UIButton+Bg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Bg.m"; sourceTree = "<group>"; };
 		E7A189B51D02CEAA00E6F441 /* ShopBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopBaseViewController.h; sourceTree = "<group>"; };
 		E7A189B61D02CEAA00E6F441 /* ShopBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopBaseViewController.m; sourceTree = "<group>"; };
 		E7A189C51D02D17700E6F441 /* Me.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Me.storyboard; path = ../Me.storyboard; sourceTree = "<group>"; };
@@ -309,6 +324,10 @@
 		8E2DE76E1D048A43003C077A /* tools */ = {
 			isa = PBXGroup;
 			children = (
+				E77EFF051D05613400E5113C /* NSString+File.h */,
+				E77EFF061D05613400E5113C /* NSString+File.m */,
+				E77EFEFF1D0560E900E5113C /* QSCNavigationController.h */,
+				E77EFF001D0560E900E5113C /* QSCNavigationController.m */,
 				E77EFEF41D05566700E5113C /* NSString+FontAwesome.h */,
 				E77EFEF51D05566700E5113C /* NSString+FontAwesome.m */,
 				E77EFEF11D05565400E5113C /* UIButton+PPiAwesome.h */,
@@ -377,6 +396,12 @@
 		E715ECAA1D052660003A2D62 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				E77EFF0B1D05621900E5113C /* UIButton+Bg.h */,
+				E77EFF0C1D05621900E5113C /* UIButton+Bg.m */,
+				E77EFF081D05619600E5113C /* UIBarButtonItem+Addition.h */,
+				E77EFF091D05619600E5113C /* UIBarButtonItem+Addition.m */,
+				E77EFF021D05611600E5113C /* UIImage+Image.h */,
+				E77EFF031D05611600E5113C /* UIImage+Image.m */,
 				E715ECAB1D052671003A2D62 /* UIView+Extension.h */,
 				E715ECAC1D052671003A2D62 /* UIView+Extension.m */,
 				E715ECAD1D052671003A2D62 /* UIImage+Extension.h */,
@@ -726,12 +751,14 @@
 				E715ECBE1D052671003A2D62 /* UIButton+Extension.m in Sources */,
 				E715ECF81D0526A3003A2D62 /* UIView+REFrostedViewController.m in Sources */,
 				8E2DE7831D048A43003C077A /* _JZNavigationInteractiveTransition.m in Sources */,
+				E77EFF041D05611600E5113C /* UIImage+Image.m in Sources */,
 				8E2DE7891D048A43003C077A /* UIViewController+JZExtension.m in Sources */,
 				8E2DE7691D047BEF003C077A /* JLLoginViewController.m in Sources */,
 				E77EFEF31D05565400E5113C /* UIButton+PPiAwesome.m in Sources */,
 				8E2DE78A1D048A43003C077A /* UIViewController+NMExtension.m in Sources */,
 				8E2DE7861D048A43003C077A /* UINavigationBar+JZExtension.m in Sources */,
 				E715ECBC1D052671003A2D62 /* NSDate+Estension.m in Sources */,
+				E77EFF011D0560E900E5113C /* QSCNavigationController.m in Sources */,
 				E715ECB91D052671003A2D62 /* UIImage+Extension.m in Sources */,
 				E77EFEFE1D05593F00E5113C /* ShopNextController.m in Sources */,
 				E715ECDF1D052696003A2D62 /* MASViewAttribute.m in Sources */,
@@ -745,6 +772,8 @@
 				3043B0A01D02C55B00E97B82 /* AppDelegate.m in Sources */,
 				8E2DE74C1D0477BF003C077A /* AppDelegate+FYTXDataBase.m in Sources */,
 				E715ECB81D052671003A2D62 /* UIView+Extension.m in Sources */,
+				E77EFF0A1D05619600E5113C /* UIBarButtonItem+Addition.m in Sources */,
+				E77EFF0D1D05621900E5113C /* UIButton+Bg.m in Sources */,
 				E715ED111D0526E5003A2D62 /* CollectionHeader.m in Sources */,
 				E715ECE41D052696003A2D62 /* README.md in Sources */,
 				8E2DE75A1D047B2E003C077A /* JLTabMainController.m in Sources */,
@@ -756,6 +785,7 @@
 				E715ECE21D052696003A2D62 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				E715ECF41D0526A3003A2D62 /* RECommonFunctions.m in Sources */,
 				E715ED0E1D0526E5003A2D62 /* CommodityTableViewCell.m in Sources */,
+				E77EFF071D05613400E5113C /* NSString+File.m in Sources */,
 				E715ECBA1D052671003A2D62 /* UIBarButtonItem+Extension.m in Sources */,
 				E715ED1E1D05273D003A2D62 /* CategoryMeunModel.m in Sources */,
 				E715ECF91D0526A3003A2D62 /* UIViewController+REFrostedViewController.m in Sources */,

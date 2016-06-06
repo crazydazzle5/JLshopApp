@@ -20,6 +20,7 @@
 
 
 
+
 @interface JLTabMainController ()
 
 @end
@@ -41,18 +42,18 @@
 
 - (void)loadControllers{
     JLHomeViewController *vcHome = [[JLHomeViewController alloc]init];
-    JLBaseNavigationController *bnHome = [[JLBaseNavigationController alloc]initWithRootViewController:vcHome];
+    QSCNavigationController *bnHome = [[QSCNavigationController alloc]initWithRootViewController:vcHome];
     
 //    [vcHome setNm_wantsNavigationBarVisible:NO];
     
     CategoryViewController *vcCate = [[CategoryViewController alloc]init];
-    JLBaseNavigationController *bnCate = [[JLBaseNavigationController alloc]initWithRootViewController:vcCate];
+    QSCNavigationController *bnCate = [[QSCNavigationController alloc]initWithRootViewController:vcCate];
     
     JLShopsViewController *vcShop = [[JLShopsViewController alloc]init];
-    JLBaseNavigationController *bnShop = [[JLBaseNavigationController alloc]initWithRootViewController:vcShop];
+    QSCNavigationController *bnShop = [[QSCNavigationController alloc]initWithRootViewController:vcShop];
     
     JLMeViewController *vcMe = [[JLMeViewController alloc]init];
-    JLBaseNavigationController *bnMe = [[JLBaseNavigationController alloc]initWithRootViewController:vcMe];
+    QSCNavigationController *bnMe = [[QSCNavigationController alloc]initWithRootViewController:vcMe];
     
     [self setViewControllers:@[bnHome,bnCate,bnShop,bnMe]animated:YES];
 

@@ -176,7 +176,6 @@
 //    [self.navigationController pushViewController:detailsTVC animated:YES];
     ShopNextController *next = [[ShopNextController alloc] init];
     [self.navigationController pushViewController:next animated:YES];
-    
 }
 
 #pragma mark 滑动事件

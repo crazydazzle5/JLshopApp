@@ -9,7 +9,7 @@
 #import "ShopBaseViewController.h"
 //#import "UIViewController+TableView.h"
 //#import <AlicloudMobileAnalitics/ALBBMAN.h>
-//#import "IQKeyboardManager.h"
+#import "IQKeyboardManager.h"
 @interface ShopBaseViewController ()
 
 @end
@@ -24,32 +24,25 @@
     return self;
 }
 
-//- (void)viewDidLoad {
-//    [super viewDidLoad];
-//    
-//    [self addBackView];
-//    [IQKeyboardManager sharedManager].enableAutoToolbar = YES;
-//    [IQKeyboardManager sharedManager].shouldShowTextFieldPlaceholder=YES;
-//    
-//    MYLog(@"%@ viewDidLoad",self);
-//}
-//
-//-(void)viewDidAppear:(BOOL)animated
-//{
-//    [super viewDidAppear:animated];
-//    [IQKeyboardManager sharedManager].enableAutoToolbar = YES;
-//    [IQKeyboardManager sharedManager].shouldShowTextFieldPlaceholder=YES;
-//    ALBBMANTracker *tracker = [[ALBBMANAnalytics getInstance] getDefaultTracker];
-//    [tracker pageAppear:self];
-//
-//}
-//
-//-(void)viewDidDisappear:(BOOL)animated
-//{
-//    [super viewDidAppear:animated];
-//    ALBBMANTracker *tracker = [[ALBBMANAnalytics getInstance] getDefaultTracker];
-//    [tracker pageDisAppear:self];
-//}
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    
+    [self addBackView];
+    [IQKeyboardManager sharedManager].enableAutoToolbar = YES;
+    [IQKeyboardManager sharedManager].shouldShowTextFieldPlaceholder=YES;
+    
+    MYLog(@"%@ viewDidLoad",self);
+}
+
+
+-(void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    [IQKeyboardManager sharedManager].enableAutoToolbar = YES;
+    [IQKeyboardManager sharedManager].shouldShowTextFieldPlaceholder=YES;
+}
+
+
 
 - (void)setTitleViewText:(NSString *)text {
     
@@ -249,23 +242,14 @@
     [self addBackView];
 }
 
-//-(void)viewDidAppear:(BOOL)animated
-//{
-//    [super viewDidAppear:animated];
-//    [IQKeyboardManager sharedManager].enableAutoToolbar = YES;
-//    [IQKeyboardManager sharedManager].shouldShowTextFieldPlaceholder=YES;
-//    ALBBMANTracker *tracker = [[ALBBMANAnalytics getInstance] getDefaultTracker];
-//    [tracker pageAppear:self];
-//    
-//}
+-(void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    [IQKeyboardManager sharedManager].enableAutoToolbar = YES;
+    [IQKeyboardManager sharedManager].shouldShowTextFieldPlaceholder=YES;
+}
 
-//-(void)viewDidDisappear:(BOOL)animated
-//{
-//    [super viewDidAppear:animated];
-//    ALBBMANTracker *tracker = [[ALBBMANAnalytics getInstance] getDefaultTracker];
-//    [tracker pageDisAppear:self];
-//    
-//}
+
 
 - (void)setTitleViewText:(NSString *)text {
     

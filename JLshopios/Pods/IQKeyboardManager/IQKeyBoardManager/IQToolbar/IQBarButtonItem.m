@@ -48,6 +48,9 @@
     [[self appearance] setBackgroundImage:nil forState:UIControlStateSelected       barMetrics:UIBarMetricsDefault];
     [[self appearance] setBackgroundImage:nil forState:UIControlStateApplication    barMetrics:UIBarMetricsDefault];
     [[self appearance] setBackgroundImage:nil forState:UIControlStateReserved       barMetrics:UIBarMetricsDefault];
+    [[self appearance] setTitleTextAttributes:@{ NSFontAttributeName: [UIFont fontWithName:@"AmericanTypewriter" size:15]}
+                                     forState: UIControlStateNormal];
+    
 
     
 #ifdef __IPHONE_8_0
