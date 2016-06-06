@@ -13,7 +13,6 @@
 #import "JLHomeViewController.h"
 #import "JLLoginViewController.h"
 #import "JLMeViewController.h"
-#import "JLCategoryViewController.h"
 #import "JLHomeViewController.h"
 #import "JLShopsViewController.h"
 #import "CategoryViewController.h"

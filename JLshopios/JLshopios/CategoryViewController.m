@@ -11,11 +11,11 @@
 #import "CategoryMeunModel.h"
 #import "MultilevelMenu.h"
 #import "AppDelegate.h"
-//#import "CommodityTableViewController.h"
+#import "CommodityTableViewController.h"
 #import "REFrostedViewController.h"
 //#import "RightMenuTableViewController.h"
 //#import "JDNavigationController.h"
-#import <UIKit/UIKit.h>
+
 @interface CategoryViewController ()<SearchBarViewDelegate>
 {
     NSMutableArray * _list;
@@ -45,7 +45,7 @@
     //将搜索条放在一个UIView上
     SearchBarView *searchView = [[SearchBarView alloc]initWithFrame:CGRectMake(0, 7, self.view.frame.size.width-60 , 30)];
     searchView.delegate=self;
-     self.navigationItem.titleView = searchView;
+    self.navigationItem.titleView = searchView;
 }
 
 - (void)cameraClick{
@@ -54,7 +54,7 @@
 
 #pragma mark - 🔌 SearchBarViewDelegate Method
 - (void)searchBarSearchButtonClicked:(SearchBarView *)searchBarView {
-
+    MYLog(@"搜索");
 }
 
 - (void)searchBarAudioButtonClicked:(SearchBarView *)searchBarView {
@@ -123,6 +123,9 @@
 //        [self presentViewController:frostedViewController animated:YES completion:nil];
 //        
          //[self.navigationController pushViewController:frostedViewController animated:YES];
+          
+          CommodityTableViewController *commod = [[CommodityTableViewController alloc] init];
+          [self.navigationController pushViewController:commod animated:YES];
     }];
     
     view.needToScorllerIndex=0; //默认是 选中第一行

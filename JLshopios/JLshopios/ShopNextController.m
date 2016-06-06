@@ -1,24 +1,23 @@
 //
-//  JLCategoryViewController.m
+//  ShopNextController.m
 //  JLshopios
 //
-//  Created by imao on 16/6/5.
+//  Created by zhouyuxi on 16/6/6.
 //  Copyright © 2016年 feng. All rights reserved.
 //
 
-#import "JLCategoryViewController.h"
+#import "ShopNextController.h"
 
-@interface JLCategoryViewController ()
+@interface ShopNextController ()
 
 @end
 
-@implementation JLCategoryViewController
+@implementation ShopNextController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
-    [self.view setBackgroundColor:[UIColor lightGrayColor]];
+    self.view.backgroundColor = [UIColor redColor];
 }
 
 - (void)didReceiveMemoryWarning {
