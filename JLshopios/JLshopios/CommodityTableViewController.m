@@ -54,7 +54,7 @@
     
     self.navigationItem.rightBarButtonItem = [UIBarButtonItem BarButtonItemWithBackgroudImageName:@"changeProductListGrid" highBackgroudImageName:nil target:self action:@selector(changeClick)];
     //将搜索条放在一个UIView上
-    SearchBarView *searchView = [[SearchBarView alloc]initWithFrame:CGRectMake(0, 7, 240 , 30)];
+    SearchBarView *searchView = [[SearchBarView alloc]initWithFrame:CGRectMake(0, 0, 240 , 30)];
     searchView.delegate=self;
     self.navigationItem.titleView = searchView;
     self.navigationController.navigationBar.shadowImage=[[UIImage alloc]init];
@@ -62,7 +62,7 @@
 
 - (void)initView{
     PPiFlatSegmentedControl *segmented=[[PPiFlatSegmentedControl alloc]
-                                        initWithFrame:CGRectMake(0, 64, self.view.width, 40)
+                                        initWithFrame:CGRectMake(0, 0, self.view.width, 40)
                                         items:
                                         @[@{@"text":@"综合",@"icon":@"icon-sort"},
                                           @{@"text":@"销量"},
@@ -96,7 +96,7 @@
                                             }
                                                                          }];
     
-    segmented.color=[UIColor colorWithPatternImage:[UIImage imageNamed:@"navigationbar_background"]];
+//    segmented.color=[UIColor colorWithPatternImage:[UIImage imageNamed:@"navigationbar_background"]];
     segmented.borderColor=[UIColor darkGrayColor];
     //segmented.selectedColor=[UIColor colorWithRed:0.0f/255.0 green:141.0f/255.0 blue:176.0f/255.0 alpha:1];
     segmented.textAttributes=@{NSFontAttributeName:[UIFont systemFontOfSize:14],
@@ -108,7 +108,7 @@
     
     
     //创建一个分组样式的UITableView
-    _tableView=[[UITableView alloc]initWithFrame:CGRectMake(0, 104, self.view.width, self.view.height-104 - 44) style:UITableViewStylePlain];
+    _tableView=[[UITableView alloc]initWithFrame:CGRectMake(0, 40, self.view.width, self.view.height-64-40) style:UITableViewStylePlain];
     
     //设置数据源，注意必须实现对应的UITableViewDataSource协议
     _tableView.dataSource=self;
