@@ -13,6 +13,7 @@
 #import "JLHomeViewController.h"
 #import "JLShopsViewController.h"
 #import "CategoryViewController.h"
+#import "ShopingCartController.h"
 
 @interface JLTabMainController ()
 
@@ -45,10 +46,13 @@
     JLShopsViewController *vcShop = [[JLShopsViewController alloc]init];
     QSCNavigationController *bnShop = [[QSCNavigationController alloc]initWithRootViewController:vcShop];
     
+    ShopingCartController *cart  = [[ShopingCartController alloc] init];
+    QSCNavigationController *shopNav = [[QSCNavigationController alloc] initWithRootViewController:cart];
+    
     JLMeViewController *vcMe = [[JLMeViewController alloc]init];
     QSCNavigationController *bnMe = [[QSCNavigationController alloc]initWithRootViewController:vcMe];
     
-    [self setViewControllers:@[bnHome,bnCate,bnShop,bnMe]animated:YES];
+    [self setViewControllers:@[bnHome,bnCate,bnShop,shopNav,bnMe]animated:YES];
 
     self.selectedIndex = 0;
     
@@ -58,8 +62,10 @@
             selectedImageName:@"" index:1];
     [self tabBarItemWithTitle:@"商铺" imageName:@""
             selectedImageName:@"" index:2];
-    [self tabBarItemWithTitle:@"我的" imageName:@""
+    [self tabBarItemWithTitle:@"购物车" imageName:@""
             selectedImageName:@"" index:3];
+    [self tabBarItemWithTitle:@"我的" imageName:@""
+            selectedImageName:@"" index:4];
 }
 
 

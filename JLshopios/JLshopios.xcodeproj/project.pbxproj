@@ -79,6 +79,7 @@
 		E77EFF071D05613400E5113C /* NSString+File.m in Sources */ = {isa = PBXBuildFile; fileRef = E77EFF061D05613400E5113C /* NSString+File.m */; };
 		E77EFF0A1D05619600E5113C /* UIBarButtonItem+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = E77EFF091D05619600E5113C /* UIBarButtonItem+Addition.m */; };
 		E77EFF0D1D05621900E5113C /* UIButton+Bg.m in Sources */ = {isa = PBXBuildFile; fileRef = E77EFF0C1D05621900E5113C /* UIButton+Bg.m */; };
+		E77EFF121D05699C00E5113C /* ShopingCartController.m in Sources */ = {isa = PBXBuildFile; fileRef = E77EFF111D05699C00E5113C /* ShopingCartController.m */; };
 		E7A189B71D02CEAA00E6F441 /* ShopBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A189B61D02CEAA00E6F441 /* ShopBaseViewController.m */; };
 		E7A189C61D02D17700E6F441 /* Me.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7A189C51D02D17700E6F441 /* Me.storyboard */; };
 		E7A189C81D02D18D00E6F441 /* Shops.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7A189C71D02D18D00E6F441 /* Shops.storyboard */; };
@@ -230,6 +231,8 @@
 		E77EFF091D05619600E5113C /* UIBarButtonItem+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Addition.m"; sourceTree = "<group>"; };
 		E77EFF0B1D05621900E5113C /* UIButton+Bg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Bg.h"; sourceTree = "<group>"; };
 		E77EFF0C1D05621900E5113C /* UIButton+Bg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Bg.m"; sourceTree = "<group>"; };
+		E77EFF101D05699C00E5113C /* ShopingCartController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopingCartController.h; sourceTree = "<group>"; };
+		E77EFF111D05699C00E5113C /* ShopingCartController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopingCartController.m; sourceTree = "<group>"; };
 		E7A189B51D02CEAA00E6F441 /* ShopBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopBaseViewController.h; sourceTree = "<group>"; };
 		E7A189B61D02CEAA00E6F441 /* ShopBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopBaseViewController.m; sourceTree = "<group>"; };
 		E7A189C51D02D17700E6F441 /* Me.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Me.storyboard; path = ../Me.storyboard; sourceTree = "<group>"; };
@@ -495,6 +498,23 @@
 			name = View;
 			sourceTree = "<group>";
 		};
+		E77EFF0E1D05696B00E5113C /* ShopingCart */ = {
+			isa = PBXGroup;
+			children = (
+				E77EFF0F1D05698400E5113C /* Controller */,
+			);
+			name = ShopingCart;
+			sourceTree = "<group>";
+		};
+		E77EFF0F1D05698400E5113C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E77EFF101D05699C00E5113C /* ShopingCartController.h */,
+				E77EFF111D05699C00E5113C /* ShopingCartController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		E78544FE1D02C97A007839EE /* Delegate */ = {
 			isa = PBXGroup;
 			children = (
@@ -522,6 +542,7 @@
 		E7A189B81D02CFEA00E6F441 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				E77EFF0E1D05696B00E5113C /* ShopingCart */,
 				8E2DE76A1D047C6C003C077A /* TabMain */,
 				E7A189CD1D02D3B100E6F441 /* Login */,
 				E7A189BC1D02D03000E6F441 /* Me */,
@@ -750,6 +771,7 @@
 				8E2DE7691D047BEF003C077A /* JLLoginViewController.m in Sources */,
 				E77EFEF31D05565400E5113C /* UIButton+PPiAwesome.m in Sources */,
 				8E2DE78A1D048A43003C077A /* UIViewController+NMExtension.m in Sources */,
+				E77EFF121D05699C00E5113C /* ShopingCartController.m in Sources */,
 				8E2DE7861D048A43003C077A /* UINavigationBar+JZExtension.m in Sources */,
 				E715ECBC1D052671003A2D62 /* NSDate+Estension.m in Sources */,
 				E77EFF011D0560E900E5113C /* QSCNavigationController.m in Sources */,
