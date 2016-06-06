@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1962EBAE843A0C9D5CE0665E /* libPods-JLshopios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B9F3C40CBF89327F4BEFF40 /* libPods-JLshopios.a */; };
 		3043B09D1D02C55B00E97B82 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3043B09C1D02C55B00E97B82 /* main.m */; };
 		3043B0A01D02C55B00E97B82 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3043B09F1D02C55B00E97B82 /* AppDelegate.m */; };
 		3043B0A31D02C55B00E97B82 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3043B0A21D02C55B00E97B82 /* ViewController.m */; };
@@ -78,6 +79,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B9F3C40CBF89327F4BEFF40 /* libPods-JLshopios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JLshopios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3043B0981D02C55B00E97B82 /* JLshopios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JLshopios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3043B09C1D02C55B00E97B82 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3043B09E1D02C55B00E97B82 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 		3043B0A71D02C55B00E97B82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3043B0AA1D02C55B00E97B82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3043B0AC1D02C55B00E97B82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59DB181FDF48FB21A3C8CB5C /* Pods-JLshopios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JLshopios.release.xcconfig"; path = "Pods/Target Support Files/Pods-JLshopios/Pods-JLshopios.release.xcconfig"; sourceTree = "<group>"; };
 		8E2DE7451D0473E5003C077A /* Shop_PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Shop_PrefixHeader.pch; path = JLshopios/Shop_PrefixHeader.pch; sourceTree = "<group>"; };
 		8E2DE7461D0477BF003C077A /* AppDelegate+FYTXDataBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+FYTXDataBase.h"; sourceTree = "<group>"; };
 		8E2DE7471D0477BF003C077A /* AppDelegate+FYTXDataBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+FYTXDataBase.m"; sourceTree = "<group>"; };
@@ -127,6 +130,7 @@
 		8E2DE7801D048A43003C077A /* UIViewController+JZExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JZExtension.m"; sourceTree = "<group>"; };
 		8E2DE7811D048A43003C077A /* UIViewController+NMExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NMExtension.h"; sourceTree = "<group>"; };
 		8E2DE7821D048A43003C077A /* UIViewController+NMExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NMExtension.m"; sourceTree = "<group>"; };
+		D864B1384E019D4C842C5150 /* Pods-JLshopios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JLshopios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JLshopios/Pods-JLshopios.debug.xcconfig"; sourceTree = "<group>"; };
 		E715ECAB1D052671003A2D62 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
 		E715ECAC1D052671003A2D62 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 		E715ECAD1D052671003A2D62 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
@@ -214,6 +218,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1962EBAE843A0C9D5CE0665E /* libPods-JLshopios.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,6 +233,8 @@
 				8E2DE7451D0473E5003C077A /* Shop_PrefixHeader.pch */,
 				3043B09A1D02C55B00E97B82 /* JLshopios */,
 				3043B0991D02C55B00E97B82 /* Products */,
+				E3C8D442DF5A0E204E057A71 /* Pods */,
+				65F2E137616152DB5C45F13C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -263,6 +270,14 @@
 				3043B09C1D02C55B00E97B82 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		65F2E137616152DB5C45F13C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B9F3C40CBF89327F4BEFF40 /* libPods-JLshopios.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		8E2DE76A1D047C6C003C077A /* TabMain */ = {
@@ -329,6 +344,15 @@
 				8E2DE77C1D048A43003C077A /* UIToolbar+JZExtension.m */,
 			);
 			path = Private;
+			sourceTree = "<group>";
+		};
+		E3C8D442DF5A0E204E057A71 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D864B1384E019D4C842C5150 /* Pods-JLshopios.debug.xcconfig */,
+				59DB181FDF48FB21A3C8CB5C /* Pods-JLshopios.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		E715ECAA1D052660003A2D62 /* Category */ = {
@@ -531,9 +555,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3043B0AF1D02C55B00E97B82 /* Build configuration list for PBXNativeTarget "JLshopios" */;
 			buildPhases = (
+				5B58A2ABBECD2B8FB1809FC3 /* 📦 Check Pods Manifest.lock */,
 				3043B0941D02C55B00E97B82 /* Sources */,
 				3043B0951D02C55B00E97B82 /* Frameworks */,
 				3043B0961D02C55B00E97B82 /* Resources */,
+				B23FA89FD641C06DD7EE4C40 /* 📦 Embed Pods Frameworks */,
+				01C400B7A058D83DDBD757CB /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -600,6 +627,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01C400B7A058D83DDBD757CB /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JLshopios/Pods-JLshopios-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B58A2ABBECD2B8FB1809FC3 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B23FA89FD641C06DD7EE4C40 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JLshopios/Pods-JLshopios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3043B0941D02C55B00E97B82 /* Sources */ = {
@@ -771,6 +846,7 @@
 		};
 		3043B0B01D02C55B00E97B82 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D864B1384E019D4C842C5150 /* Pods-JLshopios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -786,6 +862,7 @@
 		};
 		3043B0B11D02C55B00E97B82 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59DB181FDF48FB21A3C8CB5C /* Pods-JLshopios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
