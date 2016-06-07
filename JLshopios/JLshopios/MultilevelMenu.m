@@ -88,7 +88,6 @@
         self.rightCollection.dataSource=self;
         
         UINib *nib=[UINib nibWithNibName:kMultilevelCollectionViewCell bundle:nil];
-        
         [self.rightCollection registerNib: nib forCellWithReuseIdentifier:kMultilevelCollectionViewCell];
         
         

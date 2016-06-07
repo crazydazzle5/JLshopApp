@@ -24,6 +24,7 @@
 #import "UIViewController+NMExtension.h"
 #import "UIBarButtonItem+Addition.h"
 #import "QSCNavigationController.h"
+#import "QSCHttpTool.h"
 
 
 //常用宏定义·

@@ -68,6 +68,8 @@
 		E715ED1E1D05273D003A2D62 /* CategoryMeunModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E715ED1B1D05273D003A2D62 /* CategoryMeunModel.m */; };
 		E715ED1F1D05273D003A2D62 /* CommodityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E715ED1D1D05273D003A2D62 /* CommodityModel.m */; };
 		E715ED211D05289C003A2D62 /* Category.plist in Resources */ = {isa = PBXBuildFile; fileRef = E715ED201D05289C003A2D62 /* Category.plist */; };
+		E72893EF1D06A227006CAEBB /* QSCHttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E72893EE1D06A227006CAEBB /* QSCHttpTool.m */; };
+		E72893F11D06A251006CAEBB /* kudou.cer in Resources */ = {isa = PBXBuildFile; fileRef = E72893F01D06A251006CAEBB /* kudou.cer */; };
 		E77EFEED1D05558600E5113C /* CommodityTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E77EFEEC1D05558600E5113C /* CommodityTableViewController.m */; };
 		E77EFEF01D05561C00E5113C /* PPiFlatSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = E77EFEEF1D05561C00E5113C /* PPiFlatSegmentedControl.m */; };
 		E77EFEF31D05565400E5113C /* UIButton+PPiAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = E77EFEF21D05565400E5113C /* UIButton+PPiAwesome.m */; };
@@ -210,6 +212,9 @@
 		E715ED1C1D05273D003A2D62 /* CommodityModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommodityModel.h; sourceTree = "<group>"; };
 		E715ED1D1D05273D003A2D62 /* CommodityModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommodityModel.m; sourceTree = "<group>"; };
 		E715ED201D05289C003A2D62 /* Category.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Category.plist; sourceTree = "<group>"; };
+		E72893ED1D06A227006CAEBB /* QSCHttpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSCHttpTool.h; sourceTree = "<group>"; };
+		E72893EE1D06A227006CAEBB /* QSCHttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSCHttpTool.m; sourceTree = "<group>"; };
+		E72893F01D06A251006CAEBB /* kudou.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = kudou.cer; sourceTree = "<group>"; };
 		E77EFEEB1D05558600E5113C /* CommodityTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommodityTableViewController.h; sourceTree = "<group>"; };
 		E77EFEEC1D05558600E5113C /* CommodityTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommodityTableViewController.m; sourceTree = "<group>"; };
 		E77EFEEE1D05561C00E5113C /* PPiFlatSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPiFlatSegmentedControl.h; sourceTree = "<group>"; };
@@ -324,6 +329,9 @@
 		8E2DE76E1D048A43003C077A /* tools */ = {
 			isa = PBXGroup;
 			children = (
+				E72893F01D06A251006CAEBB /* kudou.cer */,
+				E72893ED1D06A227006CAEBB /* QSCHttpTool.h */,
+				E72893EE1D06A227006CAEBB /* QSCHttpTool.m */,
 				E77EFF051D05613400E5113C /* NSString+File.h */,
 				E77EFF061D05613400E5113C /* NSString+File.m */,
 				E77EFEF41D05566700E5113C /* NSString+FontAwesome.h */,
@@ -682,6 +690,7 @@
 				E7A189C81D02D18D00E6F441 /* Shops.storyboard in Resources */,
 				E715ED211D05289C003A2D62 /* Category.plist in Resources */,
 				E715ECDA1D052696003A2D62 /* LICENSE in Resources */,
+				E72893F11D06A251006CAEBB /* kudou.cer in Resources */,
 				E7A189C61D02D17700E6F441 /* Me.storyboard in Resources */,
 				E715ED161D0526E5003A2D62 /* MultilevelTableViewCell.xib in Resources */,
 				3043B0A61D02C55B00E97B82 /* Main.storyboard in Resources */,
@@ -759,6 +768,7 @@
 				E715ECF61D0526A3003A2D62 /* REFrostedViewController.m in Sources */,
 				E715ECDE1D052696003A2D62 /* MASLayoutConstraint.m in Sources */,
 				8E2DE74D1D0477BF003C077A /* AppDelegate+FYTXEntrance.m in Sources */,
+				E72893EF1D06A227006CAEBB /* QSCHttpTool.m in Sources */,
 				8E2DE7841D048A43003C077A /* _JZValue.m in Sources */,
 				8E2DE75D1D047B98003C077A /* JLHomeViewController.m in Sources */,
 				E715ECF51D0526A3003A2D62 /* REFrostedContainerViewController.m in Sources */,
