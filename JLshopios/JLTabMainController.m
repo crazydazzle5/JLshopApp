@@ -35,10 +35,10 @@
 }
 
 - (void)loadControllers{
-    JLHomeViewController *vcHome = [[JLHomeViewController alloc]init];
+    JLHomeViewController *vcHome = [JLHomeViewController viewController:ShopSBNameHome];
     QSCNavigationController *bnHome = [[QSCNavigationController alloc]initWithRootViewController:vcHome];
     
-//    [vcHome setNm_wantsNavigationBarVisible:NO];
+    [vcHome setNm_wantsNavigationBarVisible:NO];
     
     CategoryViewController *vcCate = [[CategoryViewController alloc]init];
     QSCNavigationController *bnCate = [[QSCNavigationController alloc]initWithRootViewController:vcCate];
@@ -56,16 +56,16 @@
 
     self.selectedIndex = 0;
     
-    [self tabBarItemWithTitle:@"首页" imageName:@""
-            selectedImageName:@"" index:0];
-    [self tabBarItemWithTitle:@"分类" imageName:@""
-            selectedImageName:@"" index:1];
-    [self tabBarItemWithTitle:@"商铺" imageName:@""
-            selectedImageName:@"" index:2];
-    [self tabBarItemWithTitle:@"购物车" imageName:@""
-            selectedImageName:@"" index:3];
-    [self tabBarItemWithTitle:@"我的" imageName:@""
-            selectedImageName:@"" index:4];
+    [self tabBarItemWithTitle:@"" imageName:@"main_bottom_tab_home_normal"
+            selectedImageName:@"main_bottom_tab_home_focus" index:0];
+    [self tabBarItemWithTitle:@"" imageName:@"main_bottom_tab_category_normal"
+            selectedImageName:@"main_bottom_tab_category_focus" index:1];
+    [self tabBarItemWithTitle:@"" imageName:@"main_bottom_tab_faxian_normal"
+            selectedImageName:@"main_bottom_tab_faxian_focus" index:2];
+    [self tabBarItemWithTitle:@"" imageName:@"main_bottom_tab_cart_normal"
+            selectedImageName:@"main_bottom_tab_cart_focus" index:3];
+    [self tabBarItemWithTitle:@"" imageName:@"main_bottom_tab_personal_normal"
+            selectedImageName:@"main_bottom_tab_personal_focus" index:4];
     
     [self loadBGview];
 }
