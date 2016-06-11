@@ -17,6 +17,8 @@
 #import "JLHomeViewController.h"
 #import "JLShopsViewController.h"
 
+#import "JLFindViewController.h"
+
 
 
 
@@ -53,6 +55,12 @@
 
     JLBaseNavigationController *bnCate = [[JLBaseNavigationController alloc]initWithRootViewController:vcCate];
     
+    
+    JLFindViewController *vcFind = [JLFindViewController viewController:ShopSBNameFind];
+    JLBaseNavigationController *bnFind = [[JLBaseNavigationController alloc]initWithRootViewController:vcFind];
+    vcFind.title = @"发现";
+    
+    
     JLShopsViewController *vcShop = [[JLShopsViewController alloc]init];
     vcShop.title = @"商家";
     
@@ -62,7 +70,7 @@
     vcMe.title = @"我的";
     JLBaseNavigationController *bnMe = [[JLBaseNavigationController alloc]initWithRootViewController:vcMe];
     
-    [self setViewControllers:@[bnHome,bnCate,bnShop,bnMe]animated:YES];
+    [self setViewControllers:@[bnHome,bnCate,bnFind,bnShop,bnMe]animated:YES];
 
     self.selectedIndex = 0;
     
@@ -70,13 +78,28 @@
             selectedImageName:@"" index:0];
     [self tabBarItemWithTitle:@"分类" imageName:@""
             selectedImageName:@"" index:1];
+    [self tabBarItemWithTitle:@"发现" imageName:@"" selectedImageName:@"" index:2];
     [self tabBarItemWithTitle:@"商铺" imageName:@""
-            selectedImageName:@"" index:2];
-    [self tabBarItemWithTitle:@"我的" imageName:@""
             selectedImageName:@"" index:3];
+    [self tabBarItemWithTitle:@"我的" imageName:@""
+            selectedImageName:@"" index:4];
+    [self loadBgView];
+    
 }
 
+-(void)loadBgView{
+    UIView *bgview = [[UIView alloc]init];
+    
+    [bgview setFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 48)];
+    [bgview setBackgroundColor:[UIColor colorWithRed:51/255.0 green:51/255.0 blue:51/255.0 alpha:1]];
+    
+    
+    [self.tabBar insertSubview:bgview atIndex:0];
+    
 
+    
+    
+}
 
 
 -(void) tabBarItemWithTitle:(NSString *)atitle imageName:(NSString *)imageName selectedImageName:(NSString *)selectedImageName  index:(NSInteger)index

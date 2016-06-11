@@ -220,7 +220,18 @@
             return [s_storyboardIM instantiateViewControllerWithIdentifier:identifier];
             break;
         }
-       
+        case ShopSBNameFind:
+        {
+            static UIStoryboard * s_storyboardIM = nil;
+            
+            if ( !s_storyboardIM ){
+                s_storyboardIM = [UIStoryboard storyboardWithName:@"Find" bundle:nil];
+            }
+            NSString * identifier = NSStringFromClass([self class]);
+            return [s_storyboardIM instantiateViewControllerWithIdentifier:identifier];
+            break;
+        }
+
             
         default:
         {

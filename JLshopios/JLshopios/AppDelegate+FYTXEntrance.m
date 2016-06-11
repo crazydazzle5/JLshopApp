@@ -11,6 +11,8 @@
 #import "JLTabMainController.h"
 #import "JLHomeViewController.h"
 
+#import "FYTXGuide.h"
+#import "JLGuideViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -21,29 +23,30 @@
 -(void) loadAppGuide
 {    
     //开屏页
-//    self.window.rootViewController = (UIViewController *)[FYTXFlashFactory flashView];
+    [self loadNotification];
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
-    self.window.rootViewController = [[JLTabMainController alloc]init];
+
+    BOOL isGCshow = [FYTXGuide isHiddenFYTXGuide];
+    if (isGCshow) {
+        self.window.rootViewController = [[JLTabMainController alloc]init];
+    }else{
+        JLGuideViewController *gc = [[JLGuideViewController alloc]init];
+        self.window.rootViewController = gc;
+    }
     
-    
-    
+
     [self.window makeKeyAndVisible];
-//    
-////    self.window.rootViewController = [[JLTabMainController alloc]init];
-//    [UIApplication sharedApplication].keyWindow.rootViewController = [[JLTabMainController alloc]init];
-//    
-//    [[UIApplication sharedApplication].keyWindow makeKeyAndVisible];
-//    
-    
-//    [self.window makeKeyAndVisible];
-    
-    //直接跳转到tablebar页面;
-    
-    
 }
 
 
+-(void)loadNotification{
+    [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(jumptoMainController) name:@"JLShopGuideFinishGoToMain" object:nil];
+}
 
+-(void)jumptoMainController{
+    self.window.rootViewController = [[JLTabMainController alloc]init];
+
+}
 
 
 

@@ -10,6 +10,7 @@ typedef NS_ENUM(NSInteger, QSCSBName)
     ShopSBNameHome = 0,
     ShopSBNameCategory,
     ShopSBNameShops,
+    ShopSBNameFind,
     ShopSBNameME,
     ShopSBNameLogin
 };
