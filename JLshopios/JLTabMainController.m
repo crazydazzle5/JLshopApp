@@ -66,6 +66,8 @@
             selectedImageName:@"" index:3];
     [self tabBarItemWithTitle:@"我的" imageName:@""
             selectedImageName:@"" index:4];
+    
+    [self loadBGview];
 }
 
 
@@ -87,6 +89,18 @@
         [tabBarItem setSelectedImage:[selectedImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]];
     }
 }
+
+
+
+-(void)loadBGview{
+    UIView *sview = [[UIView alloc]init];
+    [sview setFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 48)];
+    [sview setBackgroundColor:[UIColor colorWithRed:51/255.0 green:51/255.0 blue:51/255.0 alpha:1]];
+    [self.tabBar insertSubview:sview atIndex:0];
+    
+    
+}
+
 
 
 @end
