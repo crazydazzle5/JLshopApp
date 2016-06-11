@@ -40,18 +40,26 @@
 }
 
 - (void)loadControllers{
-    JLHomeViewController *vcHome = [[JLHomeViewController alloc]init];
+    
+
+    JLHomeViewController *vcHome = [JLHomeViewController viewController:ShopSBNameHome];
+    vcHome.title = @"首页";
     JLBaseNavigationController *bnHome = [[JLBaseNavigationController alloc]initWithRootViewController:vcHome];
     
 //    [vcHome setNm_wantsNavigationBarVisible:NO];
     
     JLCategoryViewController *vcCate = [[JLCategoryViewController alloc]init];
+    vcCate.title = @"分类";
+
     JLBaseNavigationController *bnCate = [[JLBaseNavigationController alloc]initWithRootViewController:vcCate];
     
     JLShopsViewController *vcShop = [[JLShopsViewController alloc]init];
+    vcShop.title = @"商家";
+    
     JLBaseNavigationController *bnShop = [[JLBaseNavigationController alloc]initWithRootViewController:vcShop];
     
     JLMeViewController *vcMe = [[JLMeViewController alloc]init];
+    vcMe.title = @"我的";
     JLBaseNavigationController *bnMe = [[JLBaseNavigationController alloc]initWithRootViewController:vcMe];
     
     [self setViewControllers:@[bnHome,bnCate,bnShop,bnMe]animated:YES];

@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+#import "JLshopCommon.h"
+
+
 @interface JLLoginViewController : UIViewController
 
 @end

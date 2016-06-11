@@ -89,6 +89,7 @@
 		8E2DE7801D048A43003C077A /* UIViewController+JZExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JZExtension.m"; sourceTree = "<group>"; };
 		8E2DE7811D048A43003C077A /* UIViewController+NMExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NMExtension.h"; sourceTree = "<group>"; };
 		8E2DE7821D048A43003C077A /* UIViewController+NMExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NMExtension.m"; sourceTree = "<group>"; };
+		8E2F073D1D0A9C0200D4943F /* JLshopCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLshopCommon.h; sourceTree = "<group>"; };
 		E7A189B51D02CEAA00E6F441 /* ShopBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopBaseViewController.h; sourceTree = "<group>"; };
 		E7A189B61D02CEAA00E6F441 /* ShopBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopBaseViewController.m; sourceTree = "<group>"; };
 		E7A189C51D02D17700E6F441 /* Me.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Me.storyboard; path = ../Me.storyboard; sourceTree = "<group>"; };
@@ -155,6 +156,7 @@
 		8E2DE76A1D047C6C003C077A /* TabMain */ = {
 			isa = PBXGroup;
 			children = (
+				E7A189CD1D02D3B100E6F441 /* Login */,
 				8E2DE76B1D047D63003C077A /* JLBaseNavigationController.h */,
 				8E2DE76C1D047D63003C077A /* JLBaseNavigationController.m */,
 				8E2DE7581D047B2E003C077A /* JLTabMainController.h */,
@@ -223,6 +225,7 @@
 		E78544FF1D02CA18007839EE /* BaseController */ = {
 			isa = PBXGroup;
 			children = (
+				8E2F073D1D0A9C0200D4943F /* JLshopCommon.h */,
 				E7A189B51D02CEAA00E6F441 /* ShopBaseViewController.h */,
 				E7A189B61D02CEAA00E6F441 /* ShopBaseViewController.m */,
 			);
@@ -233,11 +236,10 @@
 			isa = PBXGroup;
 			children = (
 				8E2DE76A1D047C6C003C077A /* TabMain */,
-				E7A189CD1D02D3B100E6F441 /* Login */,
-				E7A189BC1D02D03000E6F441 /* Me */,
-				E7A189BB1D02D01700E6F441 /* Shops */,
-				E7A189BA1D02D00100E6F441 /* Category */,
 				E7A189B91D02CFF700E6F441 /* Home */,
+				E7A189BB1D02D01700E6F441 /* Shops */,
+				E7A189BC1D02D03000E6F441 /* Me */,
+				E7A189BA1D02D00100E6F441 /* Category */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
