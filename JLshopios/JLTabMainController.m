@@ -7,20 +7,21 @@
 //
 
 #import "JLTabMainController.h"
-
-#import "JLBaseNavigationController.h"
-
 #import "JLHomeViewController.h"
 #import "JLLoginViewController.h"
 #import "JLMeViewController.h"
-#import "JLCategoryViewController.h"
 #import "JLHomeViewController.h"
 #import "JLShopsViewController.h"
+<<<<<<< HEAD
 
 #import "JLFindViewController.h"
 
 
 
+=======
+#import "CategoryViewController.h"
+#import "ShopingCartController.h"
+>>>>>>> shop/zhou_company
 
 @interface JLTabMainController ()
 
@@ -42,6 +43,7 @@
 }
 
 - (void)loadControllers{
+<<<<<<< HEAD
     
 
     JLHomeViewController *vcHome = [JLHomeViewController viewController:ShopSBNameHome];
@@ -54,6 +56,15 @@
     vcCate.title = @"分类";
 
     JLBaseNavigationController *bnCate = [[JLBaseNavigationController alloc]initWithRootViewController:vcCate];
+=======
+    JLHomeViewController *vcHome = [[JLHomeViewController alloc]init];
+    QSCNavigationController *bnHome = [[QSCNavigationController alloc]initWithRootViewController:vcHome];
+    
+//    [vcHome setNm_wantsNavigationBarVisible:NO];
+    
+    CategoryViewController *vcCate = [[CategoryViewController alloc]init];
+    QSCNavigationController *bnCate = [[QSCNavigationController alloc]initWithRootViewController:vcCate];
+>>>>>>> shop/zhou_company
     
     
     JLFindViewController *vcFind = [JLFindViewController viewController:ShopSBNameFind];
@@ -62,6 +73,7 @@
     
     
     JLShopsViewController *vcShop = [[JLShopsViewController alloc]init];
+<<<<<<< HEAD
     vcShop.title = @"商家";
     
     JLBaseNavigationController *bnShop = [[JLBaseNavigationController alloc]initWithRootViewController:vcShop];
@@ -71,6 +83,17 @@
     JLBaseNavigationController *bnMe = [[JLBaseNavigationController alloc]initWithRootViewController:vcMe];
     
     [self setViewControllers:@[bnHome,bnCate,bnFind,bnShop,bnMe]animated:YES];
+=======
+    QSCNavigationController *bnShop = [[QSCNavigationController alloc]initWithRootViewController:vcShop];
+    
+    ShopingCartController *cart  = [[ShopingCartController alloc] init];
+    QSCNavigationController *shopNav = [[QSCNavigationController alloc] initWithRootViewController:cart];
+    
+    JLMeViewController *vcMe = [[JLMeViewController alloc]init];
+    QSCNavigationController *bnMe = [[QSCNavigationController alloc]initWithRootViewController:vcMe];
+    
+    [self setViewControllers:@[bnHome,bnCate,bnShop,shopNav,bnMe]animated:YES];
+>>>>>>> shop/zhou_company
 
     self.selectedIndex = 0;
     
@@ -80,11 +103,19 @@
             selectedImageName:@"" index:1];
     [self tabBarItemWithTitle:@"发现" imageName:@"" selectedImageName:@"" index:2];
     [self tabBarItemWithTitle:@"商铺" imageName:@""
+<<<<<<< HEAD
             selectedImageName:@"" index:3];
     [self tabBarItemWithTitle:@"我的" imageName:@""
             selectedImageName:@"" index:4];
     [self loadBgView];
     
+=======
+            selectedImageName:@"" index:2];
+    [self tabBarItemWithTitle:@"购物车" imageName:@""
+            selectedImageName:@"" index:3];
+    [self tabBarItemWithTitle:@"我的" imageName:@""
+            selectedImageName:@"" index:4];
+>>>>>>> shop/zhou_company
 }
 
 -(void)loadBgView{
