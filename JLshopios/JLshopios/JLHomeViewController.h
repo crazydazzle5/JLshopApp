@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ShopBaseViewController.h"
 
-@interface JLHomeViewController : UIViewController
+
+@interface JLHomeViewController : ShopBaseViewController
 
 @end
