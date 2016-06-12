@@ -48,6 +48,7 @@
 		8E2DE7881D048A43003C077A /* UINavigationController+JZExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2DE77E1D048A43003C077A /* UINavigationController+JZExtension.m */; };
 		8E2DE7891D048A43003C077A /* UIViewController+JZExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2DE7801D048A43003C077A /* UIViewController+JZExtension.m */; };
 		8E2DE78A1D048A43003C077A /* UIViewController+NMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2DE7821D048A43003C077A /* UIViewController+NMExtension.m */; };
+		8EA0FE121D0C727D00947433 /* JLTypeListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA0FE111D0C727D00947433 /* JLTypeListView.m */; };
 		E715ECB81D052671003A2D62 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E715ECAC1D052671003A2D62 /* UIView+Extension.m */; };
 		E715ECB91D052671003A2D62 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E715ECAE1D052671003A2D62 /* UIImage+Extension.m */; };
 		E715ECBA1D052671003A2D62 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = E715ECB01D052671003A2D62 /* UIBarButtonItem+Extension.m */; };
@@ -190,6 +191,8 @@
 		8E2DE7801D048A43003C077A /* UIViewController+JZExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JZExtension.m"; sourceTree = "<group>"; };
 		8E2DE7811D048A43003C077A /* UIViewController+NMExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NMExtension.h"; sourceTree = "<group>"; };
 		8E2DE7821D048A43003C077A /* UIViewController+NMExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NMExtension.m"; sourceTree = "<group>"; };
+		8EA0FE101D0C727D00947433 /* JLTypeListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLTypeListView.h; sourceTree = "<group>"; };
+		8EA0FE111D0C727D00947433 /* JLTypeListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLTypeListView.m; sourceTree = "<group>"; };
 		D864B1384E019D4C842C5150 /* Pods-JLshopios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JLshopios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JLshopios/Pods-JLshopios.debug.xcconfig"; sourceTree = "<group>"; };
 		E715ECAB1D052671003A2D62 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
 		E715ECAC1D052671003A2D62 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
@@ -674,6 +677,8 @@
 				3057831E1D0C1CA4007AED3C /* Home.Storyboard */,
 				8E2DE75B1D047B98003C077A /* JLHomeViewController.h */,
 				8E2DE75C1D047B98003C077A /* JLHomeViewController.m */,
+				8EA0FE101D0C727D00947433 /* JLTypeListView.h */,
+				8EA0FE111D0C727D00947433 /* JLTypeListView.m */,
 				305783381D0C29BD007AED3C /* JLShopCollectionViewCell.h */,
 				305783391D0C29BD007AED3C /* JLShopCollectionViewCell.m */,
 				3057833A1D0C29BD007AED3C /* JLShopCollectionViewCell.xib */,
@@ -907,6 +912,7 @@
 				E715ECDF1D052696003A2D62 /* MASViewAttribute.m in Sources */,
 				E77EFEF61D05566700E5113C /* NSString+FontAwesome.m in Sources */,
 				E715ECDC1D052696003A2D62 /* MASConstraint.m in Sources */,
+				8EA0FE121D0C727D00947433 /* JLTypeListView.m in Sources */,
 				8E2DE7871D048A43003C077A /* UIToolbar+JZExtension.m in Sources */,
 				E715ECF71D0526A3003A2D62 /* UIImage+REFrostedViewController.m in Sources */,
 				3043B0A31D02C55B00E97B82 /* ViewController.m in Sources */,
