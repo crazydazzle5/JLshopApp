@@ -22,7 +22,7 @@
 		3057831B1D0C0D51007AED3C /* FYTXGuideImageName.m in Sources */ = {isa = PBXBuildFile; fileRef = 305783111D0C0D51007AED3C /* FYTXGuideImageName.m */; };
 		3057831C1D0C0D51007AED3C /* FYTXGuideVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 305783131D0C0D51007AED3C /* FYTXGuideVersion.m */; };
 		3057831D1D0C0D51007AED3C /* JLGuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 305783151D0C0D51007AED3C /* JLGuideViewController.m */; };
-		3057831F1D0C1CA5007AED3C /* Home.Storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3057831E1D0C1CA4007AED3C /* Home.Storyboard */; };
+		3057831F1D0C1CA5007AED3C /* ShopHome.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3057831E1D0C1CA4007AED3C /* ShopHome.storyboard */; };
 		305783311D0C22FD007AED3C /* TAAbstractDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 305783241D0C22FD007AED3C /* TAAbstractDotView.m */; };
 		305783321D0C22FD007AED3C /* TAAnimatedDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 305783261D0C22FD007AED3C /* TAAnimatedDotView.m */; };
 		305783331D0C22FD007AED3C /* TADotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 305783281D0C22FD007AED3C /* TADotView.m */; };
@@ -137,7 +137,7 @@
 		305783131D0C0D51007AED3C /* FYTXGuideVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYTXGuideVersion.m; sourceTree = "<group>"; };
 		305783141D0C0D51007AED3C /* JLGuideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLGuideViewController.h; sourceTree = "<group>"; };
 		305783151D0C0D51007AED3C /* JLGuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLGuideViewController.m; sourceTree = "<group>"; };
-		3057831E1D0C1CA4007AED3C /* Home.Storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.Storyboard; sourceTree = "<group>"; };
+		3057831E1D0C1CA4007AED3C /* ShopHome.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ShopHome.storyboard; sourceTree = "<group>"; };
 		305783231D0C22FD007AED3C /* TAAbstractDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAbstractDotView.h; sourceTree = "<group>"; };
 		305783241D0C22FD007AED3C /* TAAbstractDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAbstractDotView.m; sourceTree = "<group>"; };
 		305783251D0C22FD007AED3C /* TAAnimatedDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAnimatedDotView.h; sourceTree = "<group>"; };
@@ -674,7 +674,7 @@
 		E7A189B91D02CFF700E6F441 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				3057831E1D0C1CA4007AED3C /* Home.Storyboard */,
+				3057831E1D0C1CA4007AED3C /* ShopHome.storyboard */,
 				8E2DE75B1D047B98003C077A /* JLHomeViewController.h */,
 				8E2DE75C1D047B98003C077A /* JLHomeViewController.m */,
 				8EA0FE101D0C727D00947433 /* JLTypeListView.h */,
@@ -812,7 +812,7 @@
 				E715ED141D0526E5003A2D62 /* MultilevelCollectionViewCell.xib in Resources */,
 				3057833C1D0C29BD007AED3C /* JLShopCollectionViewCell.xib in Resources */,
 				E715ED0F1D0526E5003A2D62 /* CommodityTableViewCell.xib in Resources */,
-				3057831F1D0C1CA5007AED3C /* Home.Storyboard in Resources */,
+				3057831F1D0C1CA5007AED3C /* ShopHome.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

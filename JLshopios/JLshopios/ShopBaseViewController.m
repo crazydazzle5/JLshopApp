@@ -163,7 +163,7 @@
             static UIStoryboard * s_storyboardHome = nil;
             
             if ( !s_storyboardHome ){
-                s_storyboardHome = [UIStoryboard storyboardWithName:@"Home" bundle:nil];
+                s_storyboardHome = [UIStoryboard storyboardWithName:@"ShopHome" bundle:nil];
             }
             NSString * identifier = NSStringFromClass([self class]);
             return [s_storyboardHome instantiateViewControllerWithIdentifier:identifier];
